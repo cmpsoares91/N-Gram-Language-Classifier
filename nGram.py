@@ -24,10 +24,29 @@ ext = ".txt"
 num = 3
 ### Phrase for testing:
 testPhrase = "Olá tudo bem?\nChamo-me Carlos Soares."
+smoothing = False
+testFile = "./test.csv"
+fileToTest = False
 
-def normalizeFilesInDirectory (n, dir, fileExt, newExt):
+def normalizeText (n, text):
+    temp = ''
     wordBegin = ''
     wordEnd = ''
+    for word in re.split('\W+', text, flags=re.UNICODE):
+        if word != '':
+            if n == 1 :
+                wordBegin += "<"
+                wordEnd += ">"
+            else:
+                for i in range(n-1):
+                    wordBegin += "<"
+                    wordEnd += ">"
+            temp += wordBegin + word + wordEnd + "\n"
+            wordBegin = wordEnd = ''
+    return temp;
+
+def normalizeFilesInDirectory (n, dir, fileExt, newExt):
+
     for file in os.listdir(dir):
         if file.endswith(fileExt):
             if os.path.splitext(file)[0] != "sources":
@@ -36,13 +55,7 @@ def normalizeFilesInDirectory (n, dir, fileExt, newExt):
                 tempFile.close()
                 
                 tempFile = open(dir+'/'+os.path.splitext(file)[0]+newExt, 'w', encoding="utf8")
-                for word in re.split('\W+', temp, flags=re.UNICODE):
-                    if word != '':
-                        for i in range(n-1):
-                            wordBegin += "<"
-                            wordEnd += ">"
-                        tempFile.write(wordBegin + word + wordEnd + "\n")
-                        wordBegin = wordEnd = ''
+                tempFile.write(normalizeText(n, temp))
                 tempFile.close()
 
 def ngram (n, text):
@@ -85,6 +98,8 @@ def createNGramFile (n, dir, ext):
 
                 df.to_csv(dir+'/'+fileName+gramExt, sep='\t', encoding='utf-8', header=False, index=False)
 
+def testSentence (n, phrase):
+    tempPhrase = normalizeText(n, phrase)
 
 ### Changeable:
 #dirName = "./data"
@@ -93,15 +108,18 @@ def createNGramFile (n, dir, ext):
 #num = 3
 #### Phrase for testing:
 #testPhrase = "Olá tudo bem?\nChamo-me Carlos Soares."
+#smoothing = False
+#testFile = "./test.csv"
+#fileToTest = False
 
 def main(argv):
    try:
-      opts, args = getopt.getopt(argv,"hd:e:n:t:",["dir=", "dirName=", "ext=", "extention=", "num=", "number=", "test=", "testPhrase="])
+      opts, args = getopt.getopt(argv,"hd:e:n:t:c:s",["dir=", "dirName=", "ext=", "extention=", "num=", "number=", "test=", "testPhrase=", "testCSV="])
    except getopt.GetoptError:
       print('nGram.py <options>')
       sys.exit(2)
    for opt, arg in opts:
-      if opt == ('-h', "--help"):
+      if opt in ('-h', "--help"):
          print('nGram.py <options>')
          # Add missing options
          sys.exit()
@@ -112,14 +130,28 @@ def main(argv):
          global ext
          ext = arg
       elif opt in ("-n", "--num", "--number"):
-         global num
-         num = arg
+         if int(arg) > 0 :
+             global num
+             num = int(arg)
       elif opt in ("-t", "--test", "--testPhrase"):
          global testPhrase
          testPhrase = arg
+         
+         # Needs to be refined in order to recieve a full sentence:
+         print(testPhrase)
+      elif opt in ("-c", "--testCSV"):
+         global testFile
+         testFile = arg
+         global fileToTest
+         fileToTest = True
+      elif opt in ('-s', "--smoothing", "--smooth"):
+         global smoothing
+         smoothing = True
 
    normalizeFilesInDirectory (num, dirName, ext, normExt);
    createNGramFile (num, dirName, normExt);
+   
+   #Here do the testing
 
 if __name__ == "__main__":
    main(sys.argv[1:])
