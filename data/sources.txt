@@ -8,6 +8,13 @@ Sources:
   - http://stackoverflow.com/questions/24372993/pandas-dataframe-with-2-rows-header-and-export-to-csv
   - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_csv.html
   - http://www.tutorialspoint.com/python/python_command_line_arguments.htm
+  
+Tests:
+  - en-US: http://stackoverflow.com/questions/3475251/split-a-string-by-a-delimiter-in-python
+  - pt-PT: http://www.jn.pt/PaginaInicial/Seguranca/Interior.aspx?content_id=4203981
+  - pt-BR: http://www.jb.com.br/rio/noticias/2014/10/27/pezao-define-saude-e-seguranca-como-prioridades-do-seu-governo/
+  - nl-NL: https://www.nd.nl/artikelen/2014/oktober/27/goede-doelen-hengelen-naar-erfenissen-en-gaan-soms
+  - nl-BE: http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20141027_01344182
 
 Corpus sources:
 pt-PT:
