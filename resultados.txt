@@ -1,0 +1,56 @@
+3-Gram Test Results:
+3-gram result for "It is worth to read the python standard documents and trying to understand few programs others have made to start to grasp basics of Python. Practise and copying/modifying are great tools to learn language.":
+
+Language	Probability
+en-US	-189.20269011675384
+nl-NL	-254.80180010704257
+nl-BE	-260.83182819744127
+pt-PT	-290.6454612206543
+pt-BR	-298.9524955468886
+
+We estimate that en-US is the sentence's language.
+
+3-gram result for "0 Ministro da Administração Interna, Miguel Macedo, afirmou, esta segunda-feira, em Vila Nova de Gaia que a reorganização dos comandos metropolitanos da PSP do Porto e de Lisboa, que já está em curso, não implicará redução de agentes policiais.":
+
+Language	Probability
+pt-PT	-203.3797758527989
+pt-BR	-220.92126442817656
+en-US	-305.0635490948806
+nl-BE	-inf
+nl-NL	-inf
+
+We estimate that pt-PT is the sentence's language.
+
+3-gram result for "Ele contou que conversará com os prefeitos ainda nesta semana e avaliará a melhor localização da nova unidade para atender a todos os municípios da região. Segundo Pezão, outra iniciativa importante no setor será o maior investimento na atenção básica à saúde.":
+
+Language	Probability
+pt-PT	-224.89056896192685
+pt-BR	-240.06975486409507
+en-US	-inf
+nl-BE	-inf
+nl-NL	-inf
+
+We estimate that pt-PT is the sentence's language.
+
+3-gram result for "Goede doelen worden steeds vaker opgenomen in erfenissen. Filantropische instanties leveren daarvoor soms zelfs tegenprestaties als een begrafenis. Hoever mogen ze hierin gaan?":
+
+Language	Probability
+nl-NL	-167.32253862597338
+nl-BE	-170.51493249171793
+en-US	-204.4611647497867
+pt-PT	-247.0005880751967
+pt-BR	-257.2530788918211
+
+We estimate that nl-NL is the sentence's language.
+
+3-gram result for "Elke keer opnieuw luisteren we braaf naar de stewardessen in een vliegtuig als ze ons, vlak voor het landen, vragen om de luikjes van de vliegtuigraampjes weer open te doen. Maar waarom moet dat eigenlijk?":
+
+Language	Probability
+nl-NL	-192.01368739936777
+nl-BE	-194.88841860945797
+en-US	-263.69381473268936
+pt-PT	-313.1180719114794
+pt-BR	-314.2151734110145
+
+We estimate that nl-NL is the sentence's language.
+
