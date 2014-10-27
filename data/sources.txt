@@ -1,0 +1,92 @@
+Sources:
+  - http://en.wikipedia.org/wiki/Language_localisation
+  - http://stackoverflow.com/questions/817122/delete-digits-in-python-regex
+  - https://docs.python.org/2/library/re.html#re.UNICODE
+  - http://stackoverflow.com/questions/9233027/unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character
+  - https://docs.python.org/2/library/os.path.html#os.path.splitext
+  - http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python
+  - http://stackoverflow.com/questions/24372993/pandas-dataframe-with-2-rows-header-and-export-to-csv
+  - http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_csv.html
+  - http://www.tutorialspoint.com/python/python_command_line_arguments.htm
+
+Corpus sources:
+pt-PT:
+  - dados/pt-nor.txt
+  - http://www.jn.pt/PaginaInicial/Mundo/Interior.aspx?content_id=4195136
+  - http://www.jn.pt/PaginaInicial/Mundo/Interior.aspx?content_id=4195044
+  - http://www.jn.pt/PaginaInicial/Desporto/Interior.aspx?content_id=4194958&page=-1
+  - http://www.jn.pt/PaginaInicial/Desporto/Interior.aspx?content_id=4194568
+  - http://www.jn.pt/PaginaInicial/Economia/Interior.aspx?content_id=4194871&page=-
+  - http://www.jn.pt/PaginaInicial/Seguranca/Interior.aspx?content_id=4193467
+  - http://www.jn.pt/PaginaInicial/Seguranca/Interior.aspx?content_id=4193415
+  - http://www.jn.pt/PaginaInicial/Seguranca/Interior.aspx?content_id=4191941
+  - http://www.tsf.pt/PaginaInicial/Economia/Interior.aspx?content_id=4195163
+  - http://www.ojogo.pt/Futebol/1a_liga/Sporting/interior.aspx?content_id=4195569
+  - Informação geral.docx from ESEL
+  - http://www.cmjornal.xl.pt/nacional/sociedade/detalhe/portugues_ganha_190_milhoes_de_euros.html
+  - http://www.cmjornal.xl.pt/nacional/portugal/detalhe/homem_explode_casa_da_namorada_e_fica_gravemente_ferido.html
+  - http://www.cmjornal.xl.pt/tecnologia/detalhe/apple_1_de_1976_pode_chegar_aos_391_mil_euros.html
+  - http://www.cmjornal.xl.pt/tecnologia/detalhe/aplicacao_faz_contas_de_matematica.html
+  - http://www.cmjornal.xl.pt/nacional/economia/detalhe/passos_coelho_tranquilo_com_testes_de_stress.html
+  - http://www.publico.pt/sociedade/noticia/grancho-quadruplicou-valor-do-teste-para-adquirir-nacionalidade-portuguesa-1674099
+  - http://www.publico.pt/sociedade/noticia/preconceitos-no-lugar-da-lei-1673981
+  - http://www.publico.pt/sociedade/noticia/portugal-condenado-por-tribunal-europeu-14-anos-apos-penhorar-mulher-que-afinal-tinha-sido-absolvida-1673960
+  - http://www.publico.pt/mundo/noticia/dois-lobos-solitarios-que-seguiram-manual-de-instrucoes-jihadista-1673907
+  - http://www.publico.pt/mundo/noticia/tiroteio-em-escola-nos-suburbios-de-seattle-1674084
+  - http://www.publico.pt/politica/noticia/menina-surpreende-passos-tambem-era-pobre-quando-era-pequeno-1673906
+  - http://www.publico.pt/sociedade/noticia/dois-tercos-dos-imigrantes-inquiridos-num-estudo-acreditam-que-a-sida-tem-cura-1674012
+
+pt-BR:
+  - http://www.jb.com.br/economia/noticias/2014/10/24/dolar-tem-forte-queda-de-226-e-fecha-cotado-a-r-245/
+  - http://www.jb.com.br/economia/noticias/2014/10/24/ibovespa-avanca-repercutindo-denuncias/
+  - http://www.jb.com.br/economia/noticias/2014/10/24/inflacao-semanal-cai-em-quatro-capitais-e-sobe-em-tres/
+  - http://www.jb.com.br/coisas-da-politica/noticias/2014/08/28/o-brasil-e-os-proximos-anos/
+  - http://www.jb.com.br/coisas-da-politica/noticias/2014/09/02/as-escolhas-de-marina/
+  - http://www.jb.com.br/informe-jb/noticias/2014/10/23/tentativa-de-golpe/
+  - http://www.jb.com.br/juventude-de-fe/noticias/2014/10/22/estudantes-da-puc-rio-fazem-manifestacao-pro-dilma-e-pro-aecio/
+  - http://www.jb.com.br/coisas-da-politica/noticias/2014/08/02/por-que-os-eua-perdem/
+  - http://www.jb.com.br/coisas-da-politica/noticias/2014/07/24/de-cegos-e-de-anoes/
+
+nl-NL:
+  - http://www.h-l.nl/blog/artikel/overig/judith_van_zelm_van_eldik/omgaan-met-weerstand/
+  - http://www.h-l.nl/blog/Leiderschap/vincent_van_harte/artikel/hoop-geloof-vertrouwen-en-perspectief/
+  - http://www.h-l.nl/blog/Assessments/danny_van_der_schoor/column/familiegeschiedenis/
+  - http://www.h-l.nl/blog/Assessments/danny_van_der_schoor/artikel/wie_iemand_is_of_wat_iemand_doet/
+  - http://www.h-l.nl/blog/Assessments/danny_van_der_schoor/column/het_gevaar_van_de_eerste_indruk/
+  - http://www.nu.nl/wetenschap/3912006/google-topman-maakt-hoogste-vrije-val.html
+  - http://www.nu.nl/buitenland/3911911/koerden-doden-gevangenen-en-verwoesten-stadje-irak.html
+  - http://www.nu.nl/politiek/3911796/nederlands-marineschip-binnenkort-ebolagebied.html
+  - http://www.nu.nl/politiek/3911553/oud-wethouder-jos-van-rey-vervolgd-corruptie.html
+  - http://www.anrotech.com/blog/entry/6-websites-hoeven-niet-duur-te-zijn.html
+  - http://tblog.cisco.nl/2014/07/31/waarm-het-is-is-intermediate-systems-to-intermediate-systems-routing-protocol-zo-populair-is-bij-de-nieuwste-datacenter-technieken/
+  - http://www.ad.nl/ad/nl/1013/Buitenland/article/detail/3775547/2014/10/25/Aanslag-met-bijl-op-New-Yorkse-politie-was-terrorisme.dhtml
+  - http://www.ad.nl/ad/nl/1013/Buitenland/article/detail/3763096/2014/10/06/3D-geprint-hart-redt-leven-van-twee-weken-oude-baby.dhtml
+  
+nl-BE:
+  - http://www.nieuwsblad.be/article/detail.aspx?articleid=DMF20141024_01339985
+  - http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20141024_01339756
+  - http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20141024_01339575
+  - http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20141024_01339292
+  - http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20141024_01341149
+  - http://www.nieuwsblad.be/article/detail.aspx?articleid=dmf20141024_01340179
+  - http://be.hardware.info/nieuws/41719/visiontek-lanceert-draagbare-ssd-in-usb-formaat
+  - http://www.standaard.be/cnt/dmf20141024_01340433
+  - http://www.standaard.be/cnt/dmf20141024_01339183
+  - http://www.standaard.be/cnt/dmf20141024_01339303
+  - http://www.standaard.be/cnt/dmf20141024_01339962
+  - http://www.standaard.be/cnt/dmf20141024_01340459
+  - http://www.standaard.be/cnt/dmf20141020_01331181
+  - http://www.standaard.be/cnt/dmf20141024_01341197
+  - http://www.standaard.be/cnt/dmf20141024_01339441
+  - http://www.vandaag.be/binnenland/155416_broer-van-piloot-vliegtuigongeval-met-valschermspringers-vraagt-inzage-dossier.html
+  - http://www.vandaag.be/binnenland/155403_blanke-taxichauffeur-bestellen-klant-is-koning.html
+
+en-US:
+  - http://dealbook.nytimes.com/2014/10/21/states-ease-laws-that-protected-poor-borrowers/?hp&action=click&pgtype=Homepage&version=LedeSum&module=first-column-region&region=top-news&WT.nav=top-news
+  - http://www.nytimes.com/2014/10/26/magazine/what-if-age-is-nothing-but-a-mind-set.html?hp&action=click&pgtype=Homepage&version=LargeMediaHeadlineSum&module=photo-spot-region&region=top-news&WT.nav=top-news
+  - https://www.linkedin.com/pulse/article/20141021010207-61122141-does-job-stability-exist-anymore?trk=tod-home-art-list-large_0
+  - https://www.linkedin.com/pulse/article/20141017154146-11096266-3-money-mistakes-you-must-fix-to-get-rich
+  - https://www.linkedin.com/pulse/article/20141021225933-251749025-a-call-for-crazy-ideas
+  - http://www.nytimes.com/2014/10/22/sports/baseball/world-series-2014-sf-giants-kansas-city-royals-game-1.html?ref=baseball
+  - http://www.nytimes.com/reuters/2014/10/21/sports/soccer/21reuters-soccer-champions-roma.html?ref=soccer
+  - http://www.nytimes.com/2014/10/22/sports/after-obannon-ruling-figuring-out-whats-next.html?ref=ncaabasketball
