@@ -1,0 +1,31 @@
+####################################################################
+#                           Trabalho II                            #
+####################################################################
+# Author:                                  Carlos Soares, nr 67518 #
+#                                                                  #
+# Course:           Processamento Computacional da Linguagem (NLP) #
+# Degree:                           Master in Computer Engineering #
+# University:                                        ISCTE, Lisbon #
+#                                                                  #
+# Date:                                                 27/10/2014 #
+#                                                                  #
+# File Name:                                            opcoes.txt #
+# File Type:                                             Text File #
+#                                                                  #
+####################################################################
+
+  Para o presente trabalho foi tomada a opção de variar um pouco do método convencional
+de construções de modelos de língua estatísticas. Após de ter discutido a possibilidade na
+aula de que poderia haver mais eficiência (ou não) não construção dos modelos, tomando só em
+consideração as palavras, retirando marcas de pontuação, como a utilização de maiúsculas e a
+localização das palavras (caracteres) numa frase, pelo que esperamos descobrir a sua importancia.
+Assim sendo, na normalização das frases recolhidas, somente se mantiveram as palavras em minúsculas.
+
+Optou-se por criar um programa, de língua de comandos, em python (testado em python 3.4),
+em que se consegue alterar o seu comportamento a partir de uso de argumentos.
+
+A nível da utilização de "Smoothing", optamos por utilizar o proposto (Laplace), e desenvolver
+a possibilidade de ativar este método com a utilização de um dos argumentos opcionais: '-s',
+"--smoothing", "--smooth". No caso de não colocar a opção nos argumentos, o programa opta pelo
+método convencional e sempre que detectar que estão a ser utilizados caracteres/n-gramas desconhecidos
+este sugere a utilização da opção de smoothing e aborta o programa.

@@ -1,0 +1,56 @@
+5-Gram Test Results:
+5-gram result for "It is worth to read the python standard documents and trying to understand few programs others have made to start to grasp basics of Python. Practise and copying/modifying are great tools to learn language.":
+
+Language	Probability
+en-US	-208.27172930134256
+nl-BE	-inf
+nl-NL	-inf
+pt-BR	-inf
+pt-PT	-inf
+
+We estimate that en-US is the sentence's language.
+
+5-gram result for "0 Ministro da Administração Interna, Miguel Macedo, afirmou, esta segunda-feira, em Vila Nova de Gaia que a reorganização dos comandos metropolitanos da PSP do Porto e de Lisboa, que já está em curso, não implicará redução de agentes policiais.":
+
+Language	Probability
+pt-PT	-238.28881011648946
+pt-BR	-291.5930122419235
+en-US	-inf
+nl-BE	-inf
+nl-NL	-inf
+
+We estimate that pt-PT is the sentence's language.
+
+5-gram result for "Ele contou que conversará com os prefeitos ainda nesta semana e avaliará a melhor localização da nova unidade para atender a todos os municípios da região. Segundo Pezão, outra iniciativa importante no setor será o maior investimento na atenção básica à saúde.":
+
+Language	Probability
+pt-PT	-259.95293173275803
+pt-BR	-296.5070534145733
+en-US	-inf
+nl-BE	-inf
+nl-NL	-inf
+
+We estimate that pt-PT is the sentence's language.
+
+5-gram result for "Goede doelen worden steeds vaker opgenomen in erfenissen. Filantropische instanties leveren daarvoor soms zelfs tegenprestaties als een begrafenis. Hoever mogen ze hierin gaan?":
+
+Language	Probability
+nl-NL	-202.60624134466687
+nl-BE	-219.67730984479226
+en-US	-258.1459090580402
+pt-BR	-inf
+pt-PT	-inf
+
+We estimate that nl-NL is the sentence's language.
+
+5-gram result for "Elke keer opnieuw luisteren we braaf naar de stewardessen in een vliegtuig als ze ons, vlak voor het landen, vragen om de luikjes van de vliegtuigraampjes weer open te doen. Maar waarom moet dat eigenlijk?":
+
+Language	Probability
+nl-NL	-226.61064278128208
+nl-BE	-234.51077211731138
+en-US	-inf
+pt-BR	-inf
+pt-PT	-inf
+
+We estimate that nl-NL is the sentence's language.
+

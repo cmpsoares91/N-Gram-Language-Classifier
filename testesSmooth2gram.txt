@@ -1,0 +1,56 @@
+2-Gram Test Results:
+2-gram result for "It is worth to read the python standard documents and trying to understand few programs others have made to start to grasp basics of Python. Practise and copying/modifying are great tools to learn language.":
+
+Language	Probability
+en-US	-215.93416867662415
+nl-NL	-254.92244227097308
+nl-BE	-255.0509782185158
+pt-BR	-275.46260749784994
+pt-PT	-277.6403235086405
+
+We estimate that en-US is the sentence's language.
+
+2-gram result for "0 Ministro da Administração Interna, Miguel Macedo, afirmou, esta segunda-feira, em Vila Nova de Gaia que a reorganização dos comandos metropolitanos da PSP do Porto e de Lisboa, que já está em curso, não implicará redução de agentes policiais.":
+
+Language	Probability
+pt-PT	-234.39675066882916
+pt-BR	-239.2596222740031
+en-US	-303.050350305773
+nl-BE	-321.2768315654306
+nl-NL	-inf
+
+We estimate that pt-PT is the sentence's language.
+
+2-gram result for "Ele contou que conversará com os prefeitos ainda nesta semana e avaliará a melhor localização da nova unidade para atender a todos os municípios da região. Segundo Pezão, outra iniciativa importante no setor será o maior investimento na atenção básica à saúde.":
+
+Language	Probability
+pt-PT	-258.95059525825667
+pt-BR	-259.4710364616796
+en-US	-inf
+nl-BE	-inf
+nl-NL	-inf
+
+We estimate that pt-PT is the sentence's language.
+
+2-gram result for "Goede doelen worden steeds vaker opgenomen in erfenissen. Filantropische instanties leveren daarvoor soms zelfs tegenprestaties als een begrafenis. Hoever mogen ze hierin gaan?":
+
+Language	Probability
+nl-BE	-173.27245843253786
+nl-NL	-173.42470554131816
+en-US	-206.82784480194672
+pt-PT	-236.52999290093805
+pt-BR	-238.03484609293955
+
+We estimate that nl-BE is the sentence's language.
+
+2-gram result for "Elke keer opnieuw luisteren we braaf naar de stewardessen in een vliegtuig als ze ons, vlak voor het landen, vragen om de luikjes van de vliegtuigraampjes weer open te doen. Maar waarom moet dat eigenlijk?":
+
+Language	Probability
+nl-NL	-202.11900862056518
+nl-BE	-203.79469593158532
+en-US	-268.1648870268255
+pt-BR	-296.72263865160323
+pt-PT	-299.0371094905223
+
+We estimate that nl-NL is the sentence's language.
+

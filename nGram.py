@@ -24,7 +24,7 @@ ext = ".txt"
 ### Number of chars used for the n-Gram:
 num = 3
 ### Phrase for testing:
-testPhrase = "Olá tudo bem?\nChamo-me Carlos Soares."
+testPhrase = "Olá tudo bem?\nChamo-me Carlos Soares e sou o autor deste programa."
 smoothing = False
 testFile = "./test.csv"
 fileToTest = False
@@ -209,7 +209,19 @@ def main(argv):
       sys.exit(2)
    for opt, arg in opts:
       if opt in ('-h', "--help"):
-         print('nGram.py <options>\nAnd the options need to be added here...')
+         print("nGram.py's help/man page:\n\nDescription: Simple command-line program to generate and test word-based n-grams.\nDeveloped for a University Project for the NLP Course at ISCTE-IUL.\nAuthor: Carlos Soares.\n\n")
+         print('python nGram.py <options>\n')
+         print('Options:\n')
+         print('-h |', "--help\t\t\t\tPrint help page.")
+         print("-d |", "--dir  |", "--dirName\t<string>\tDefine directory where to search for the corpus (default: \"./data\")")
+         print("-e |", "--ext  |", "--extention\t<string>\tDefine file extension of corpus files (default: \".txt\")")
+         print("-n |", "--num  |", "--number\t\t<int>\tDefine the \"n\" of the n-gram (default: 3)")
+         print("-t |", "--test |", "--testPhrase\t<string>\tDefine custom test phrase (default: \"Olá tudo bem? Chamo-me Carlos Soares e sou o autor deste programa.\")")
+         print("-f |", "--testFile\t\t<string>\tUse a \";EOL\" separated file to test multiple sentences")
+         print('-s |', "--smoothing |", "--smooth\t\tActivate Laplace Smoothing (Default: Deactivated)")
+         print('-o |', '--output\t\t\tSend results to \"./resultados.txt\" file')
+         print('-w |', '--writeOutputTo\t\t<string>\tSend results to a custom location/file')
+         print('-p |', '--plot\t\t\t\tPlot Results in separate bar charts at the end of each test.')
          # Add missing options
          sys.exit()
       elif opt in ("-d", "--dir", "--dirName"):

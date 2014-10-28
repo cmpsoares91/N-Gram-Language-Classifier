@@ -1,0 +1,42 @@
+####################################################################
+#                           Trabalho II                            #
+####################################################################
+# Author:                                  Carlos Soares, nr 67518 #
+#                                                                  #
+# Course:           Processamento Computacional da Linguagem (NLP) #
+# Degree:                           Master in Computer Engineering #
+# University:                                        ISCTE, Lisbon #
+#                                                                  #
+# Date:                                                 27/10/2014 #
+#                                                                  #
+# File Name:                                       viabilidade.txt #
+# File Type:                                             Text File #
+#                                                                  #
+####################################################################
+
+  Para concluir, discutiremos a viabilidade do programa desenvolvido, tanto como
+a metodologia escolhida. Para tal foram retirados 5 excertos de jornais de cada
+uma das linguas e testadas em vários n-gramas (2 a 6), testando o Inglês Americano,
+Português Europeu, Português Brasileiro, o Holandês e o Holandês Flamengo (da Bélgica),
+obtendo resultado curiosos. Que foram os seguintes (para todos estes testes foram
+usados smoothing):
+
+  1. Existe uma clara destinção entre o Inglês, Português e Holandês, pelo que aí o programa
+  acerta sempre nos testes efectuados;
+  2. Não detecta quando utilizados frases retiradas de jornais Brasileiros ou Belgas, pelo que os
+  associa correctamente com a lingua mas não com o dialecto específico do país, sendo que isto se
+  pode dever porque os corpus e testes provêm de um dominio escrito (utilizando textos orais poderia
+  obter resultados diferentes) ou mesmo devido a um fenomeno de aproximação das linguas devida
+  globalização dos media(textos utilizados de jornais online).
+  
+Tendo em conta estes resultados propomos para investigação futura, o seguinte:
+    - Comparação com o método convencional, como com um método sugerido que seria
+    na normalização somente manter a indicação de uma palavra e as marcas de pontuação,
+    este método alternativo indicaria a influencia da utilização e localização das marcas de
+    pontuação numa frase;
+    - utilizar um corpus maior;
+    - experimentar utilizar corpus de diferentes fontes (diálogos, livros, registos jurídicos)
+    e verificar se os resultados obtidos diferem.
+    
+  Para finalizar, concluímos que o programa é fiável para a detecção de uma língua, no entanto,
+para a detecção dos dialectos geograficos dessa língua consideramos que o método utilizado não é fiável.

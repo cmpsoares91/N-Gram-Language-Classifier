@@ -14,3 +14,16 @@
 #                                                                  #
 ####################################################################
 
+# Para executar o programa poderemos utilizar o seguinte comando base:
+
+# Utiliza todos os defaults:
+python nGram.py
+
+# Para acrescentar opções:
+python nGram.py <options>
+
+# As opções podem ser vistas da seguinte forma:
+python nGram.py -h
+
+# Ou:
+python nGram.py --help
